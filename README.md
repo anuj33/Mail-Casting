@@ -25,8 +25,8 @@
 ## Some clicks of the project
 
 LogIn Page: 
-![](https://github.com/yaki29/Mail-Casting/blob/master/home.png)
-Home Page:
 ![](https://github.com/yaki29/Mail-Casting/blob/master/Login.png)
+Home Page:
+![](https://github.com/yaki29/Mail-Casting/blob/master/home.png)
 Sent Mail Box:
 ![](https://github.com/yaki29/Mail-Casting/blob/master/sentbox.png)
