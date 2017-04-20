@@ -16,8 +16,8 @@
 
 ## Concept
 * We are using **MVC(Model View Controller)** pattern for implementing user interface.
-* It divides a given application into three interconnected parts
-	JSP --(input)--> Servlet --(response)--> JDBC --(show)--> JSP
+* It divides a given application into three interconnected parts.
+    JSP --(input)--> Servlet --(response)--> JDBC --(show)--> JSP
 * HTTP is a "stateless" protocol which means each time a client retrieves a Webpage, the client opens a separate connection to the Web server and the server automatically does not keep any record of previous client request.
 * We are using a single session for each user. We are giving the new session when the user log ins and close the session when user logs out. If we don't do that, session information will be lost and we won't be able to extract any information out of it.
 * Java's garbage collection close the request and response objects created by the servlet that's how we ensure **No Menory Leakage**
@@ -25,7 +25,7 @@
 ## Some clicks of the project
 
 LogIn Page: 
-![](https://github.com/yaki29/Mail-Casting/blob/master/home.png")
+![](https://github.com/yaki29/Mail-Casting/blob/master/home.png)
 Home Page:
 ![](https://github.com/yaki29/Mail-Casting/blob/master/Login.png)
 Sent Mail Box:
