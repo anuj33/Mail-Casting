@@ -11,7 +11,7 @@ public static int register(String email,String password,String name,String gende
 		Connection con=GetCon.getCon();
 		PreparedStatement ps;
 		System.out.println(email +  password +  name +  gender +  mname +  country);
-		System.out.println("Hello DUgar");
+		
 
 		String ps1 = "Insert into MAILCASTINGUSER VALUES (?, ?, ?, ?, ?, ?)";
 		ps = con.prepareStatement(ps1);
@@ -21,7 +21,7 @@ public static int register(String email,String password,String name,String gende
 		ps.setString(4,gender);
 		ps.setString(5,mname);
 		ps.setString(6,country);
-		System.out.println("Chup Dugar");
+		
 		status=ps.executeUpdate();
 
 		

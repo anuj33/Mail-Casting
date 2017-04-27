@@ -8,9 +8,9 @@ public static Connection con;
 static{
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/first","root","yash2911");
+		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/first","root","password");
 	} catch (ClassNotFoundException e) {
-		System.out.println("Dugar");
+	
 		e.printStackTrace();
 		
 	} catch (SQLException e) {
